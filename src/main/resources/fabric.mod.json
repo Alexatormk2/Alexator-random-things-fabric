@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "alexatorrandomthings",
+	"version": "${version}",
+	"name": "Alexator Random Things",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Alexatorv13"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/alexatorrandomthings/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.alexatorv13.alexatorrandomthings.AlexatorRandomThings"
+		],
+		"client": [
+			"net.alexatorv13.alexatorrandomthings.AlexatorRandomThingsClient"
+		],
+		"fabric-datagen": [
+			"net.alexatorv13.alexatorrandomthings.AlexatorRandomThingsDataGenerator"
+		]
+	},
+	"mixins": [
+		"alexatorrandomthings.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
