@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "alexatorrandomthings:mikugem"
+    },
+    "Y": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "XX ",
+    " Y ",
+    " # "
+  ],
+  "result": {
+    "item": "alexatorrandomthings:mikuhoe"
+  },
+  "show_notification": true
+}
