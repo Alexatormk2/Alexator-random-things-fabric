@@ -11,7 +11,12 @@ public class ModFood {
             new FoodComponent.Builder().meat().hunger(2).saturationModifier(0.1f).snack().build();
     public static final FoodComponent FRIES =
             new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).snack().build();
-
+    public static final FoodComponent LETTUCE =
+            new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).build();
+    public static final FoodComponent TOMATO =
+            new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).build();
+    public static final FoodComponent BURGERBREAD =
+            new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build();
     public static final FoodComponent PROCESSED_MEAT =
              new FoodComponent.Builder().meat().hunger(2).saturationModifier(0.1f).statusEffect(new StatusEffectInstance(StatusEffects.HUNGER,200),100).snack().build();
 

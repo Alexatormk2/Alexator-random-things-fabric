@@ -1,6 +1,7 @@
 package net.alexatorv13.alexatorrandomthings.block;
 
 import net.alexatorv13.alexatorrandomthings.AlexatorRandomThings;
+import net.alexatorv13.alexatorrandomthings.block.custom.LettuceCropBlock;
 import net.alexatorv13.alexatorrandomthings.block.custom.MikuDoll;
 import net.alexatorv13.alexatorrandomthings.block.custom.MikuStatue;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -23,6 +24,11 @@ public class ModBlocks {
             new MikuDoll(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.WOOL).nonOpaque()));
     public  static final  Block MIKUSTATUE = registerBlock("mikustatue",
             new MikuStatue(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.WOOL).nonOpaque()));
+
+
+    //crops
+    public static  final  Block LETTUCE_CROP = Registry.register(Registries.BLOCK, new Identifier(AlexatorRandomThings.MOD_ID,"lettuce_crop"), new LettuceCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+    public static  final  Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(AlexatorRandomThings.MOD_ID,"tomato_crop"), new LettuceCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 private static  Block registerBlock(String name,Block block){
     registerBlockItem(name,block);
     return Registry.register(Registries.BLOCK, new Identifier(AlexatorRandomThings.MOD_ID,name),block);

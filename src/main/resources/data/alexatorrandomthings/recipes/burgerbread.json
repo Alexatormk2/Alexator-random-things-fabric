@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "nugget",
+  "ingredients": [
+    {
+
+      "item": "minecraft:bread"
+    },{
+      "item": "alexatorrandomthings:cuttingknife"
+    }
+  ],
+  "result": {
+    "item": "alexatorrandomthings:burgerbread",
+    "count": 2
+  }
+}

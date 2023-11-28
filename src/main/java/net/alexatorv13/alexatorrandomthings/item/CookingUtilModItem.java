@@ -12,10 +12,16 @@ public class CookingUtilModItem  extends Item implements FabricItem {
     public CookingUtilModItem(Settings settings) {
         super(settings);
     }
+    public  ItemStack getRecipeRemainder(ItemStack itemStack){
 
-    public ItemStack getCraftingRemainingItem(ItemStack itemStack) {
-            return new ItemStack(itemStack.getItem());
-        }
+        return new ItemStack(itemStack.getItem());
+    }
+
+    public  ItemStack getRecipeRemainderItem(Item item){
+
+        assert item.getRecipeRemainder() != null;
+        return new ItemStack(item.getRecipeRemainder());
+    }
 
 
         public boolean hasCraftingRemainingItem(ItemStack stack) {

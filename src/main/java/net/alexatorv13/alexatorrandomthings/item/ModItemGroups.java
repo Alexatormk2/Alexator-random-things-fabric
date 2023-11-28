@@ -39,7 +39,10 @@ public class ModItemGroups {
                 entries.add(ModItems.FRIES_BAG);
                 entries.add(ModItems.CHICKEN_NUGGET);
                 entries.add(ModItems.NUGGET_BAG);
-            }).build());
+                entries.add(ModItems.BURGERBREAD);
+                entries.add(ModItems.LETTUCE);
+                entries.add(ModItems.TOMATO);
+                            }).build());
 
 
     public static final ItemGroup ALEXATORS_TOOLS_WEAPONS = Registry.register(Registries.ITEM_GROUP, new Identifier(AlexatorRandomThings.MOD_ID, "alexator_tools_weapons"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.alexator_tools_weapons"))
@@ -49,6 +52,13 @@ public class ModItemGroups {
                 entries.add(ModItems.MIKU_SHOVEL);
                 entries.add(ModItems.MIKU_AXE);
                 entries.add(ModItems.MIKU_SWORD);
+            }).build());
+
+
+    public static final ItemGroup ALEXATORS_SEEDS = Registry.register(Registries.ITEM_GROUP, new Identifier(AlexatorRandomThings.MOD_ID, "alexator_seeds"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.alexator_tools_weapons"))
+            .icon(() -> new ItemStack(ModItems.LETTUCE_SEED)).entries((displayContext, entries) -> {
+                entries.add(ModItems.LETTUCE_SEED);
+                entries.add(ModItems.TOMATO_SEED);
             }).build());
 
     public static void registerItemGroups() {

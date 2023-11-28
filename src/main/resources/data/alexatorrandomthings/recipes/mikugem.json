@@ -4,17 +4,17 @@
   "group": "miku",
   "key": {
     "#": {
-      "item": "minecraft:cyan_wool"
+      "item": "minecraft:iron_ingot"
     },"X": {
       "item": "minecraft:diamond"
     },"A": {
-      "item": "minecraft:string"
+      "item": "minecraft:cyan_wool"
     }
   },
   "pattern": [
-    "#A#",
-    "AXA",
-    "#A#"
+    " A ",
+    "#X#",
+    " A "
   ],
   "result": {
     "item": "alexatorrandomthings:mikugem"

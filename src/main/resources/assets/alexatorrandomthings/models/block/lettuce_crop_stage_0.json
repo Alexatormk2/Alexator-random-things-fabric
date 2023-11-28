@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "alexatorrandomthings:block/lettuce_crop_stage_0"
+  }
+}
