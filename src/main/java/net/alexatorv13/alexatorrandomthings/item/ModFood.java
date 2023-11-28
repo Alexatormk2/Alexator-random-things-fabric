@@ -15,6 +15,8 @@ public class ModFood {
             new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).build();
     public static final FoodComponent TOMATO =
             new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).build();
+    public static final FoodComponent ONION =
+            new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).build();
     public static final FoodComponent BURGERBREAD =
             new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build();
     public static final FoodComponent PROCESSED_MEAT =

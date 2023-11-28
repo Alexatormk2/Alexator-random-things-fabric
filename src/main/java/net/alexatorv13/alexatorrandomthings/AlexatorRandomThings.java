@@ -3,6 +3,7 @@ package net.alexatorv13.alexatorrandomthings;
 import net.alexatorv13.alexatorrandomthings.block.ModBlocks;
 import net.alexatorv13.alexatorrandomthings.item.ModItemGroups;
 import net.alexatorv13.alexatorrandomthings.item.ModItems;
+import net.alexatorv13.alexatorrandomthings.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -20,10 +21,12 @@ public class AlexatorRandomThings implements ModInitializer {
 		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), ModBlocks.MIKUSTATUE);
 		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), ModBlocks.LETTUCE_CROP);
 		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), ModBlocks.TOMATO_CROP);
+		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), ModBlocks.ONION_CROP);
 
 
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+		ModLootTableModifiers.modifyLootTable();
 	}
 }

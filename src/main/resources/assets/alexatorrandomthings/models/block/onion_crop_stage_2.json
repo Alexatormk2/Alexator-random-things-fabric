@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "alexatorrandomthings:block/onion_crop_stage_2"
+  }
+}

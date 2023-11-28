@@ -11,6 +11,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     //materials
     public static Item MIKUGEM = registerItem("mikugem", new Item(new FabricItemSettings()));
+    public static Item FLOUR = registerItem("flour", new Item(new FabricItemSettings()));
     public static Item FOOD_BAG = registerItem("food_bag", new Item(new FabricItemSettings()));
     public static Item CUTTINGKNIFE = registerItem("cuttingknife", new CookingUtilModItem(new FabricItemSettings()));
 //food
@@ -26,9 +27,11 @@ public static final Item NUGGET_BAG  = registerItem("nugget_bag", new Item(new F
 public static final Item FRIES_BAG  = registerItem("fries_bag", new Item(new FabricItemSettings().food(ModFood.FRIES_BAG)));
 public static final Item LETTUCE  = registerItem("lettuce", new Item(new FabricItemSettings().food(ModFood.LETTUCE)));
 public static final Item TOMATO  = registerItem("tomato", new Item(new FabricItemSettings().food(ModFood.TOMATO)));
+public static final Item ONION  = registerItem("onion", new Item(new FabricItemSettings().food(ModFood.ONION)));
 
 //seed
     public static  final  Item LETTUCE_SEED =registerItem("lettuce_seed",new AliasedBlockItem(ModBlocks.LETTUCE_CROP,new FabricItemSettings()));
+    public static  final  Item ONION_SEED =registerItem("onion_seed",new AliasedBlockItem(ModBlocks.ONION_CROP,new FabricItemSettings()));
     public static  final  Item TOMATO_SEED =registerItem("tomato_seed",new AliasedBlockItem(ModBlocks.TOMATO_CROP,new FabricItemSettings()));
 
 

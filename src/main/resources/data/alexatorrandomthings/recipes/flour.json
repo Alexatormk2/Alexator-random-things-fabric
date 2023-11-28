@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "food_bag",
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },"X": {
+      "item": "alexatorrandomthings:cuttingknife"
+    }
+  },
+  "pattern": [
+    "XXX",
+    " # "
+  ],
+  "result": {
+    "item": "alexatorrandomthings:flour",
+    "count": 10
+
+  }
+}

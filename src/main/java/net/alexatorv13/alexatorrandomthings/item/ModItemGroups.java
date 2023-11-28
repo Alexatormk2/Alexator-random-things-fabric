@@ -17,6 +17,7 @@ public class ModItemGroups {
                 entries.add(ModItems.MIKUGEM);
                 entries.add(ModItems.CUTTINGKNIFE);
                 entries.add(ModItems.FOOD_BAG);
+                entries.add(ModItems.FLOUR);
 
             }).build());
 
@@ -42,6 +43,7 @@ public class ModItemGroups {
                 entries.add(ModItems.BURGERBREAD);
                 entries.add(ModItems.LETTUCE);
                 entries.add(ModItems.TOMATO);
+                entries.add(ModItems.ONION);
                             }).build());
 
 
@@ -59,6 +61,7 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(ModItems.LETTUCE_SEED)).entries((displayContext, entries) -> {
                 entries.add(ModItems.LETTUCE_SEED);
                 entries.add(ModItems.TOMATO_SEED);
+                entries.add(ModItems.ONION_SEED);
             }).build());
 
     public static void registerItemGroups() {

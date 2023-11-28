@@ -16,29 +16,29 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "block": "alexatorrandomthings:tomato_crop",
+                  "block": "alexatorrandomthings:onion_crop",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "3"
                   }
                 }
               ],
-              "name": "alexatorrandomthings:tomato"
+              "name": "alexatorrandomthings:onion"
             },
             {
               "type": "minecraft:item",
-              "name": "alexatorrandomthings:tomato_seed"
+              "name": "alexatorrandomthings:onion_seed"
             }
           ]
         }
       ],
-      "rolls": 4.0
+      "rolls": 5.0
     },
     {
       "bonus_rolls": 1.0,
       "conditions": [
         {
-          "block": "alexatorrandomthings:tomato_crop",
+          "block": "alexatorrandomthings:onion_crop",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "4"
@@ -59,11 +59,11 @@
               }
             }
           ],
-          "name": "alexatorrandomthings:tomato_seed"
+          "name": "alexatorrandomthings:onion_seed"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "alexatorrandomthings:blocks/tomato_crop"
+  "random_sequence": "alexatorrandomthings:blocks/onion_crop"
 }

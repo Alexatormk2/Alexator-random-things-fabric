@@ -5,13 +5,15 @@
   "ingredients": [
     {
 
-      "item": "minecraft:bread"
+      "item": "minecraft:water_bottle"
     },{
-      "item": "alexatorrandomthings:cuttingknife"
+      "item": "alexatorrandomthings:flour"
+    },{
+      "item": "alexatorrandomthings:wheat"
     }
   ],
   "result": {
     "item": "alexatorrandomthings:burgerbread",
-    "count": 2
+    "count": 3
   }
 }

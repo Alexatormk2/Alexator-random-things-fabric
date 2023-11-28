@@ -28,6 +28,7 @@ public class ModBlocks {
 
     //crops
     public static  final  Block LETTUCE_CROP = Registry.register(Registries.BLOCK, new Identifier(AlexatorRandomThings.MOD_ID,"lettuce_crop"), new LettuceCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+    public static  final  Block ONION_CROP = Registry.register(Registries.BLOCK, new Identifier(AlexatorRandomThings.MOD_ID,"onion_crop"), new LettuceCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
     public static  final  Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(AlexatorRandomThings.MOD_ID,"tomato_crop"), new LettuceCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 private static  Block registerBlock(String name,Block block){
     registerBlockItem(name,block);
