@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "food",
-  "group": "fries",
+  "group": "nugget",
   "ingredients": [
     {
 
-      "item": "minecraft:potato"
+      "item": "alexatorrandomthings:tomato"
     },{
       "item": "alexatorrandomthings:cuttingknife"
     }
   ],
   "result": {
-    "item": "alexatorrandomthings:raw_fries",
-    "count": 20
+    "item": "alexatorrandomthings:tomato_slice",
+    "count": 6
   }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "nugget",
+  "ingredients": [
+    {
+
+      "item": "alexatorrandomthings:tomato"
+    },{
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "item": "alexatorrandomthings:ketchup",
+    "count": 5
+  }
+}

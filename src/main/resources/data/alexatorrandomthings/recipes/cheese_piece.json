@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "food",
-  "group": "fries",
+  "group": "cheese",
   "ingredients": [
     {
 
-      "item": "minecraft:potato"
+      "item": "alexatorrandomthings:cheese_wheel"
     },{
       "item": "alexatorrandomthings:cuttingknife"
     }
   ],
   "result": {
-    "item": "alexatorrandomthings:raw_fries",
-    "count": 20
+    "item": "alexatorrandomthings:cheese_piece",
+    "count": 10
   }
 }

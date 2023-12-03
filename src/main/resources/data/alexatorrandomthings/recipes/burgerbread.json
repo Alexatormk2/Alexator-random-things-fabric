@@ -5,11 +5,11 @@
   "ingredients": [
     {
 
-      "item": "minecraft:water_bottle"
+      "item": "minecraft:potion"
     },{
       "item": "alexatorrandomthings:flour"
     },{
-      "item": "alexatorrandomthings:wheat"
+      "item": "minecraft:wheat"
     }
   ],
   "result": {

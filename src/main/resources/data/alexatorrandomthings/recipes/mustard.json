@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "nugget",
+  "ingredients": [
+    {
+
+      "item": "alexatorrandomthings:mustard_flower"
+    },{
+      "item": "minecraft:grass"
+    },{
+      "item": "minecraft:potion"
+    },{
+
+      "item": "alexatorrandomthings:mustard_seed"
+    }
+  ],
+  "result": {
+    "item": "alexatorrandomthings:mustard",
+    "count": 5
+  }
+}

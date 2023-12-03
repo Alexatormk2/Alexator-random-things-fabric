@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "cheese",
+  "ingredients": [
+    {
+      "item": "alexatorrandomthings:burgerbread"
+    },
+    {
+      "item": "alexatorrandomthings:burger"
+    },
+    {
+      "item": "alexatorrandomthings:mustard"
+    },{
+      "item": "alexatorrandomthings:ketchup"
+    },{
+      "item": "alexatorrandomthings:pickle_slice"
+    },{
+      "item": "alexatorrandomthings:cheese_slice"
+    }
+  ],
+  "result": {
+    "item": "alexatorrandomthings:cheesehamburger",
+    "count": 1
+  }
+}

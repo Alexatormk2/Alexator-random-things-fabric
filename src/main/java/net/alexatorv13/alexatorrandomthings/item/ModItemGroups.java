@@ -18,6 +18,11 @@ public class ModItemGroups {
                 entries.add(ModItems.CUTTINGKNIFE);
                 entries.add(ModItems.FOOD_BAG);
                 entries.add(ModItems.FLOUR);
+                entries.add(ModItems.MAYONNAISE);
+                entries.add(ModItems.MUSTARD);
+                entries.add(ModItems.BBQ);
+                entries.add(ModItems.KETCHUP);
+                entries.add(ModItems.MUSTARD_FLOWER);
 
             }).build());
 
@@ -44,7 +49,17 @@ public class ModItemGroups {
                 entries.add(ModItems.LETTUCE);
                 entries.add(ModItems.TOMATO);
                 entries.add(ModItems.ONION);
-                            }).build());
+                entries.add(ModItems.PICKLE);
+                entries.add(ModItems.ONION_CUTED);
+                entries.add(ModItems.TOMATO_SLICE);
+                entries.add(ModItems.PICKLE_SLICE);
+                entries.add(ModItems.CHEESE_WHEEL);
+                entries.add(ModItems.CHEESE_PIECE);
+                entries.add(ModItems.CHEESE_SLICE);
+                entries.add(ModItems.CHEESEBURGER);
+                entries.add(ModItems.HAMBURGER);
+
+            }).build());
 
 
     public static final ItemGroup ALEXATORS_TOOLS_WEAPONS = Registry.register(Registries.ITEM_GROUP, new Identifier(AlexatorRandomThings.MOD_ID, "alexator_tools_weapons"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.alexator_tools_weapons"))
@@ -62,6 +77,8 @@ public class ModItemGroups {
                 entries.add(ModItems.LETTUCE_SEED);
                 entries.add(ModItems.TOMATO_SEED);
                 entries.add(ModItems.ONION_SEED);
+                entries.add(ModItems.PICKLE_SEED);
+                entries.add(ModItems.MUSTARD_SEED);
             }).build());
 
     public static void registerItemGroups() {

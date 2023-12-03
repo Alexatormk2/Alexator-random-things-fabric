@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "nugget",
+  "ingredients": [
+    {
+
+      "item": "alexatorrandomthings:mustard_flower"
+    },{
+      "item": "minecraft:potion"
+    },{
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "alexatorrandomthings:mayonnaise",
+    "count": 5
+  }
+}

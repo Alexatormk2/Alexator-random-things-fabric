@@ -3,19 +3,20 @@
   "category": "misc",
   "group": "food_bag",
   "key": {
-    "#": {
+    "X": {
       "item": "minecraft:wheat"
-    },"X": {
+    },"#": {
       "item": "alexatorrandomthings:cuttingknife"
     }
   },
   "pattern": [
     "XXX",
-    " # "
+    "X#X",
+    "XXX"
   ],
   "result": {
     "item": "alexatorrandomthings:flour",
-    "count": 10
+    "count": 16
 
   }
 }

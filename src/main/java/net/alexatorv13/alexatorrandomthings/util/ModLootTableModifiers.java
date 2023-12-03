@@ -45,6 +45,21 @@ private static  final Identifier GRASS_ID =
                 tableBuilder.pool(poolBuilder.build());
             }
 
+            if (GRASS_ID.equals(id)){
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.45f))
+                        .with(ItemEntry.builder(ModItems.PICKLE_SEED))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+                tableBuilder.pool(poolBuilder.build());
+            }if (GRASS_ID.equals(id)){
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.45f))
+                        .with(ItemEntry.builder(ModItems.MUSTARD_SEED))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+                tableBuilder.pool(poolBuilder.build());
+            }
 
         });
     }
