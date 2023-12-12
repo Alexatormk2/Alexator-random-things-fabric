@@ -3,6 +3,7 @@ package net.alexatorv13.alexatorrandomthings;
 import net.alexatorv13.alexatorrandomthings.block.ModBlocks;
 import net.alexatorv13.alexatorrandomthings.item.ModItemGroups;
 import net.alexatorv13.alexatorrandomthings.item.ModItems;
+import net.alexatorv13.alexatorrandomthings.screen.ModScreenHandlers;
 import net.alexatorv13.alexatorrandomthings.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
@@ -30,5 +31,6 @@ public class AlexatorRandomThings implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 		ModLootTableModifiers.modifyLootTable();
+		ModScreenHandlers.registerScreenHandlers();
 	}
 }

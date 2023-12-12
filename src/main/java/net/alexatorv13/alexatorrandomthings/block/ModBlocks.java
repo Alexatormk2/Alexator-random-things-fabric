@@ -6,7 +6,6 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.RailBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -23,7 +22,8 @@ public class ModBlocks {
     public  static final  Block MIKUSTATUE = registerBlock("mikustatue",
             new MikuStatue(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.WOOL).nonOpaque()));
 
-
+    public  static final  Block CASHREGISTER = registerBlock("cashregister",
+            new CashRegister(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque().sounds(BlockSoundGroup.METAL).nonOpaque()));
     //crops
     public static  final  Block LETTUCE_CROP = Registry.register(Registries.BLOCK, new Identifier(AlexatorRandomThings.MOD_ID,"lettuce_crop"), new LettuceCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
     public static  final  Block ONION_CROP = Registry.register(Registries.BLOCK, new Identifier(AlexatorRandomThings.MOD_ID,"onion_crop"), new OnionCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));

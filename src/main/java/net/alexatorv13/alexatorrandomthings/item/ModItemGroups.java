@@ -31,6 +31,7 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(ModBlocks.MIKUDOLL)).entries((displayContext, entries) -> {
                 entries.add(ModBlocks.MIKUDOLL);
                 entries.add(ModBlocks.MIKUSTATUE);
+                entries.add(ModBlocks.CASHREGISTER);
             }).build());
 
 
