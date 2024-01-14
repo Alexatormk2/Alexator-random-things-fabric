@@ -46,7 +46,7 @@ public class ModBlocks {
         MIKUDOLL = registerBlock("mikudoll", new MikuDoll(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.WOOL).nonOpaque()));
         TESTSIZE = registerBlock("testsize", new TestSize(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.WOOL).nonOpaque()));
         MIKUSTATUE = registerBlock("mikustatue", new MikuStatue(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.WOOL).nonOpaque()));
-        CASHREGISTER = registerBlock("cashregister", new CashRegister(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque().sounds(BlockSoundGroup.METAL).nonOpaque()));
+        CASHREGISTER = registerBlock("cashregister", new CashRegister(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque().sounds(BlockSoundGroup.METAL).nonOpaque()));
         LETTUCE_CROP = (Block)Registry.register(Registries.BLOCK, new Identifier("alexatorrandomthings", "lettuce_crop"), new LettuceCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
         ONION_CROP = (Block)Registry.register(Registries.BLOCK, new Identifier("alexatorrandomthings", "onion_crop"), new OnionCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
         TOMATO_CROP = (Block)Registry.register(Registries.BLOCK, new Identifier("alexatorrandomthings", "tomato_crop"), new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
