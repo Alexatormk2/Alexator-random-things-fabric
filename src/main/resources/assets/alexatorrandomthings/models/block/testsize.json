@@ -1,0 +1,63 @@
+{
+	"render_type": "minecraft:cutout",
+	"credit": "Made with Blockbench",
+	"parent": "testsize",
+	"textures": {
+		"0": "alexatorrandomthings:block/utilityblock/testasize",
+		"1": "alexatorrandomthings:block/utilityblock/testsizescreen",
+		"2": "alexatorrandomthings:block/utilityblock/testsizepole",
+		"particle": "alexatorrandomthings:block/utilityblock/testasize"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [15.85, 6.125, 15.8],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 3], "texture": "#0"},
+				"east": {"uv": [8, 3, 16, 6], "texture": "#0"},
+				"south": {"uv": [8, 6, 16, 9], "texture": "#0"},
+				"west": {"uv": [8, 9, 16, 12], "texture": "#0"},
+				"up": {"uv": [8, 8, 0, 0], "texture": "#0"},
+				"down": {"uv": [8, 8, 0, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.55, 6.275, 4.5],
+			"to": [8.55, 13.725, 6.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 7.5], "texture": "#2"},
+				"east": {"uv": [2, 0, 4, 7.5], "texture": "#2"},
+				"south": {"uv": [4, 0, 6, 7.5], "texture": "#2"},
+				"west": {"uv": [6, 0, 8, 7.5], "texture": "#2"},
+				"up": {"uv": [2, 10, 0, 8], "texture": "#2"},
+				"down": {"uv": [10, 0, 8, 2], "texture": "#2"}
+			}
+		},
+		{
+			"from": [1.975, 9.625, 2.55],
+			"to": [11.9, 16.875, 4.55],
+			"faces": {
+				"north": {"uv": [0, 0, 5, 3.75], "texture": "#1"},
+				"east": {"uv": [5, 2, 6, 5.75], "texture": "#1"},
+				"south": {"uv": [0, 4, 5, 7.75], "texture": "#1"},
+				"west": {"uv": [6, 2, 7, 5.75], "texture": "#1"},
+				"up": {"uv": [10, 1, 5, 0], "texture": "#1"},
+				"down": {"uv": [10, 1, 5, 2], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.54, 0.52, 0.48]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0, 1, 2]
+		}
+	]
+}

@@ -1,9 +1,5 @@
 {
   "variants": {
-    "facing=north": { "model": "alexatorrandomthings:block/cashregister" },
-    "facing=down": { "model": "alexatorrandomthings:block/cashregister" },
-    "facing=east": { "model":  "alexatorrandomthings:block/cashregister", "y": 90 },
-    "facing=south": { "model":  "alexatorrandomthings:block/cashregister", "y": 180 },
-    "facing=west": { "model":  "alexatorrandomthings:block/cashregister", "y": 270 }
+    "": { "model": "alexatorrandomthings:block/cashregister" }
   }
 }

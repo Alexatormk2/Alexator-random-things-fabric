@@ -32,6 +32,7 @@ public class ModItemGroups {
                 entries.add(ModBlocks.MIKUDOLL);
                 entries.add(ModBlocks.MIKUSTATUE);
                 entries.add(ModBlocks.CASHREGISTER);
+                entries.add(ModBlocks.TESTSIZE);
             }).build());
 
 
