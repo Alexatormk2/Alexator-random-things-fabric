@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "food",
-  "group": "cheese",
+
   "ingredients": [
     {
       "item": "alexatorrandomthings:burgerbread"
