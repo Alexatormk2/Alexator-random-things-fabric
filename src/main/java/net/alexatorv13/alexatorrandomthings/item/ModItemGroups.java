@@ -10,7 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-public class ModItemGroups {
+public class  ModItemGroups {
 
     public static final ItemGroup ALEXATOR_MATERIALS = Registry.register(Registries.ITEM_GROUP, new Identifier(AlexatorRandomThings.MOD_ID, "alexatormaterials"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.alexatormaterials"))
             .icon(() -> new ItemStack(ModItems.MIKUGEM)).entries((displayContext, entries) -> {
@@ -34,6 +34,13 @@ public class ModItemGroups {
                 entries.add(ModBlocks.CASHREGISTER);
                 entries.add(ModBlocks.TESTSIZE);
             }).build());
+
+    public static final ItemGroup ALEXATOR_NPC = Registry.register(Registries.ITEM_GROUP, new Identifier(AlexatorRandomThings.MOD_ID, "alexator_npc"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.alexator_blocks"))
+            .icon(() -> new ItemStack(ModItems.HWMIKU_SPAWN_EGG)).entries((displayContext, entries) -> {
+                entries.add(ModItems.HWMIKU_SPAWN_EGG);
+
+            }).build());
+
 
 
     public static final ItemGroup ALEXATOR_FOODS = Registry.register(Registries.ITEM_GROUP, new Identifier(AlexatorRandomThings.MOD_ID, "alexator_foods"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.alexator_foods"))

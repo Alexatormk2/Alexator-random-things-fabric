@@ -2,6 +2,7 @@ package net.alexatorv13.alexatorrandomthings.item;
 
 import net.alexatorv13.alexatorrandomthings.AlexatorRandomThings;
 import net.alexatorv13.alexatorrandomthings.block.ModBlocks;
+import net.alexatorv13.alexatorrandomthings.entity.ModEntities;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -64,6 +65,10 @@ public class ModItems {
     public static final Item MIKU_HOE = registerItem("mikuhoe",
             new HoeItem(ModToolMaterial.MIKU, 0, 0f, new FabricItemSettings()));
 
+//spaw eggs
+
+    public  static  final Item HWMIKU_SPAWN_EGG = registerItem("whmiku_spawn_egg",
+            new SpawnEggItem(ModEntities.HW_MIKU,0x8FF1D7,0x00ADFF,new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(AlexatorRandomThings.MOD_ID, name), item);

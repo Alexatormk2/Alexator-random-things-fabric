@@ -12,6 +12,7 @@
   "item.alexatorrandomthings.lettuce": "Lettuce",
   "item.alexatorrandomthings.ketchup": "Ketchup",
   "item.alexatorrandomthings.bbq": "BBQ",
+  "item.alexatorrandomthings.whmiku_spawn_egg": "Hostile Withered Miku Spawn Egg",
   "item.alexatorrandomthings.mayonnaise": "Mayonnaise",
   "item.alexatorrandomthings.cheese_wheel": "Cheese Wheel",
   "item.alexatorrandomthings.cheese_piece": "Cheese Piece",
@@ -47,6 +48,7 @@
   "itemgroup.alexator_tools_weapons": "Alexators tool and weapons",
   "itemgroup.alexator_foods": "Alexators Foods",
   "itemgroup.alexator_blocks": "Alexators Blocks",
+  "itemgroup.alexator_npc": "Alexators NPC",
   "itemgroup.alexatormaterials": "Alexators Materials",
   "itemgroup.alexator_seeds": "Alexators Seeds"
 }
