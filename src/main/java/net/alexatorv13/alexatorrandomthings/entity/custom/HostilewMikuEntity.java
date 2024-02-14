@@ -42,7 +42,7 @@ public class HostilewMikuEntity extends HostileEntity {
     private final BreakDoorGoal breakDoorsGoal = new BreakDoorGoal(this, DOOR_BREAK_DIFFICULTY_CHECKER);
     private boolean canBreakDoors;
 
-    public HostilewMikuEntity(EntityType<? extends MobEntity> entityType, World world) {
+    public HostilewMikuEntity(EntityType<? extends HostileEntity> entityType, World world) {
         super((EntityType<? extends HostileEntity>) entityType, world);
     }
 
@@ -54,7 +54,7 @@ public class HostilewMikuEntity extends HostileEntity {
             --this.idleAnimationTimeout;
         }
         if (this.isAttacking() && attackAnimationTimeout <=0) {
-            attackAnimationTimeout = 40;
+            attackAnimationTimeout = 20;
             attackAnimationState.start(this.age);
         }else {
 
@@ -76,7 +76,8 @@ public class HostilewMikuEntity extends HostileEntity {
 
     @Override
     protected void initDataTracker() {
-        this.dataTracker.set(ATTACKING, false);
+       super.initDataTracker();
+       this.dataTracker.startTracking(ATTACKING,false);
     }
 
     @Override
@@ -101,9 +102,9 @@ public class HostilewMikuEntity extends HostileEntity {
 
     public static DefaultAttributeContainer.Builder createWHMikuAttributes() {
         return MobEntity.createMobAttributes()
-                .add(EntityAttributes.GENERIC_MAX_HEALTH, 40)
+                .add(EntityAttributes.GENERIC_MAX_HEALTH, 20)
                 .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.3f)
-                .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 8)
+                .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 6)
                 .add(EntityAttributes.GENERIC_ARMOR_TOUGHNESS, 1);
 
     }
@@ -125,6 +126,8 @@ public class HostilewMikuEntity extends HostileEntity {
         this.targetSelector.add(5, new ActiveTargetGoal<TurtleEntity>(this, TurtleEntity.class, 10, true, false, TurtleEntity.BABY_TURTLE_ON_LAND_FILTER));
 
     }
+
+
 
     @Override
     protected SoundEvent getDeathSound() {

@@ -21,13 +21,12 @@ public class WHMikuAttackGoal extends MeleeAttackGoal {
     @Override
     public void start() {
         super.start();
-        attackDelay = 20;
-        ticksUntilNextAttack = 20;
+        attackDelay = 6;
+        ticksUntilNextAttack = 10;
     }
 
-
     @Override
-    protected void attack(LivingEntity pEnemy) {
+    protected void attack(LivingEntity pEnemy, double squaredDistance) {
         if (isEnemyWithinAttackDistance(pEnemy)) {
             shouldCountTillNextAttack = true;
 
@@ -46,6 +45,8 @@ public class WHMikuAttackGoal extends MeleeAttackGoal {
             entity.attackAnimationTimeout = 0;
         }
     }
+
+
 
 
 

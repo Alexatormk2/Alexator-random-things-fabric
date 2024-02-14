@@ -23,6 +23,7 @@ public class  ModItemGroups {
                 entries.add(ModItems.BBQ);
                 entries.add(ModItems.KETCHUP);
                 entries.add(ModItems.MUSTARD_FLOWER);
+                entries.add(ModItems.SCRAPMETAL);
 
             }).build());
 

@@ -11,7 +11,8 @@ import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.util.Identifier;
 
 public class ModLootTableModifiers {
-
+private  static final  Identifier HWMIKU=
+        new Identifier("alexatorrandomthings","entity/hostilewmiku");
 private static  final Identifier GRASS_ID =
         new Identifier("minecraft","blocks/grass");
     public static  void modifyLootTable(){
@@ -60,7 +61,6 @@ private static  final Identifier GRASS_ID =
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
-
         });
     }
 }

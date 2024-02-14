@@ -14,7 +14,7 @@ public class ModEntities {
 
 
     public static  final EntityType<HostilewMikuEntity> HW_MIKU = Registry.register(Registries.ENTITY_TYPE,
-            new Identifier(AlexatorRandomThings.MOD_ID,"hostilewmiku"), FabricEntityTypeBuilder.create(SpawnGroup.MONSTER,HostilewMikuEntity::new).dimensions(EntityDimensions.fixed(1.5f,2f)).build());
+            new Identifier(AlexatorRandomThings.MOD_ID,"hostilewmiku"), FabricEntityTypeBuilder.create(SpawnGroup.MONSTER,HostilewMikuEntity::new).dimensions(EntityDimensions.fixed(0.6f,1.5f)).build());
 
     public static void registerModEntities() {
         AlexatorRandomThings.LOGGER.info("Registering Entities for " + AlexatorRandomThings.MOD_ID);

@@ -11,6 +11,7 @@ import net.alexatorv13.alexatorrandomthings.item.ModItems;
 
 import net.alexatorv13.alexatorrandomthings.screen.ModScreenHandlers;
 import net.alexatorv13.alexatorrandomthings.util.ModLootTableModifiers;
+import net.alexatorv13.alexatorrandomthings.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -43,5 +44,6 @@ public class AlexatorRandomThings implements ModInitializer {
         ModScreenHandlers.registerScreenHandlers();
         EntityRendererRegistry.register(ModEntities.HW_MIKU, HostilewMikuRenderer::new);
         FabricDefaultAttributeRegistry.register(ModEntities.HW_MIKU, HostilewMikuEntity.createWHMikuAttributes());
+        ModWorldGeneration.generateModWorldGen();
     }
 }

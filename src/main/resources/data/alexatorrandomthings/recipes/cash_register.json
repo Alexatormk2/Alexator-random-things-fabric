@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },"#": {
+      "item": "alexatorrandomthings:scrapmetal"
+    },"D": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " X ",
+    "D#D",
+    "###"
+  ],
+  "result": {
+    "item": "alexatorrandomthings:cashregister",
+    "count": 4
+  }
+}

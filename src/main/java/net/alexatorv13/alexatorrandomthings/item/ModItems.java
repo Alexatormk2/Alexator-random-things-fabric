@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     //materials
     public static Item MIKUGEM = registerItem("mikugem", new Item(new FabricItemSettings()));
+    public static Item SCRAPMETAL = registerItem("scrapmetal", new Item(new FabricItemSettings()));
     public static Item KETCHUP = registerItem("ketchup", new Item(new FabricItemSettings()));
     public static Item MUSTARD = registerItem("mustard", new Item(new FabricItemSettings()));
     public static Item BBQ = registerItem("bbq", new Item(new FabricItemSettings()));
