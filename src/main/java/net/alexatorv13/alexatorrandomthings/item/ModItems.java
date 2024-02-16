@@ -3,6 +3,7 @@ package net.alexatorv13.alexatorrandomthings.item;
 import net.alexatorv13.alexatorrandomthings.AlexatorRandomThings;
 import net.alexatorv13.alexatorrandomthings.block.ModBlocks;
 import net.alexatorv13.alexatorrandomthings.entity.ModEntities;
+import net.alexatorv13.alexatorrandomthings.item.custom.CookingUtilModItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -22,9 +23,9 @@ public class ModItems {
     public static Item MUSTARD_FLOWER = registerItem("mustard_flower", new Item(new FabricItemSettings()));
     public static Item CUTTINGKNIFE = registerItem("cuttingknife", new CookingUtilModItem(new FabricItemSettings()));
     //food
-    public static final Item BURGER = registerItem("burger", new Item(new FabricItemSettings().food(ModFood.BURGER)));
+    public static final Item PATTY = registerItem("patty", new Item(new FabricItemSettings().food(ModFood.PATTY)));
     public static final Item BURGERBREAD = registerItem("burgerbread", new Item(new FabricItemSettings().food(ModFood.BURGERBREAD)));
-    public static final Item RAW_BURGER = registerItem("raw_burger", new Item(new FabricItemSettings().food(ModFood.RAW_BURGER)));
+    public static final Item RAW_PATTY = registerItem("raw_patty", new Item(new FabricItemSettings().food(ModFood.RAW_PATTY)));
     public static final Item RAW_FRIES = registerItem("raw_fries", new Item(new FabricItemSettings().food(ModFood.RAW_FRIES)));
     public static final Item FRIES = registerItem("fries", new Item(new FabricItemSettings().food(ModFood.FRIES)));
     public static final Item PROCESSED_MEAT = registerItem("processed_meat", new Item(new FabricItemSettings().food(ModFood.PROCESSED_MEAT)));
@@ -43,7 +44,7 @@ public class ModItems {
     public static final Item CHEESE_PIECE = registerItem("cheese_piece", new Item(new FabricItemSettings().food(ModFood.CHEESE_PIECE)));
     public static final Item CHEESE_SLICE = registerItem("cheese_slice", new Item(new FabricItemSettings().food(ModFood.CHEESE_SLICE)));
     //burgers
-    public static final Item HAMBURGER = registerItem("hamburger", new Item(new FabricItemSettings().food(ModFood.HAMBURGER)));
+    public static final Item BURGER = registerItem("burger", new Item(new FabricItemSettings().food(ModFood.BURGER)));
     public static final Item CHEESEBURGER = registerItem("cheeseburger", new Item(new FabricItemSettings().food(ModFood.CHEESEBURGER)));
     //seed
     public static final Item LETTUCE_SEED = registerItem("lettuce_seed", new AliasedBlockItem(ModBlocks.LETTUCE_CROP, new FabricItemSettings()));

@@ -1,0 +1,10 @@
+
+{
+  "variants": {
+    "facing=north": { "model": "alexatorrandomthings:block/tiles6" },
+    "facing=down": { "model": "alexatorrandomthings:block/tiles6" },
+    "facing=east": { "model":  "alexatorrandomthings:block/tiles6", "y": 90 },
+    "facing=south": { "model":  "alexatorrandomthings:block/tiles6", "y": 180 },
+    "facing=west": { "model":  "alexatorrandomthings:block/tiles6", "y": 270 }
+  }
+}

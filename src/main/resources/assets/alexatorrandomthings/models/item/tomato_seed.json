@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alexatorrandomthings:item/tomato_seed"
+    "layer0": "alexatorrandomthings:item/seeds/tomato_seed"
   }
 }

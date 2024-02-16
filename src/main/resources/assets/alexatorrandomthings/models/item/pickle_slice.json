@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alexatorrandomthings:item/pickle_slice"
+    "layer0": "alexatorrandomthings:item/ingredients/pickle_slice"
   }
 }

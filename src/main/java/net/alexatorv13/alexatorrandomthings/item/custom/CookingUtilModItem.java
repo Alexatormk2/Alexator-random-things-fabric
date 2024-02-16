@@ -1,4 +1,4 @@
-package net.alexatorv13.alexatorrandomthings.item;
+package net.alexatorv13.alexatorrandomthings.item.custom;
 
 import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.minecraft.command.argument.serialize.ConstantArgumentSerializer;

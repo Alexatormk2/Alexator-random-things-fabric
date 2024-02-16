@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alexatorrandomthings:item/processed_meat"
+    "layer0": "alexatorrandomthings:item/ingredients/processed_meat"
   }
 }

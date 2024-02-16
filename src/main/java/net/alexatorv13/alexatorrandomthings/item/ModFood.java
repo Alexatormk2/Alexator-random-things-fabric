@@ -30,9 +30,9 @@ public class ModFood {
     public static final FoodComponent PROCESSED_MEAT =
              new FoodComponent.Builder().meat().hunger(2).saturationModifier(0.1f).statusEffect(new StatusEffectInstance(StatusEffects.HUNGER,200),100).snack().build();
 
-    public static final FoodComponent RAW_BURGER =
+    public static final FoodComponent RAW_PATTY =
             new FoodComponent.Builder().meat().hunger(3).saturationModifier(0.1f).statusEffect(new StatusEffectInstance(StatusEffects.HUNGER,200),100).build();
-    public static final FoodComponent  BURGER =
+    public static final FoodComponent PATTY =
              new FoodComponent.Builder().meat().hunger(5).saturationModifier(0.1f).build();
 
 
@@ -50,7 +50,7 @@ public class ModFood {
     public static final FoodComponent FRIES_BAG =
             new FoodComponent.Builder().hunger(12).saturationModifier(0.1f).build();
 
-    public static final FoodComponent HAMBURGER =
+    public static final FoodComponent BURGER =
             new FoodComponent.Builder().hunger(14).saturationModifier(7f).build();
     public static final FoodComponent CHEESEBURGER =
             new FoodComponent.Builder().hunger(15).saturationModifier(7.6f).build();

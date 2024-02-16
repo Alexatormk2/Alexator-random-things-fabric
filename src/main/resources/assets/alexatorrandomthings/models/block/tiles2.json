@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "alexatorrandomthings:block/tiles/tiles1top",
+		"side": "alexatorrandomthings:block/tiles/tiles2"
+	}
+}

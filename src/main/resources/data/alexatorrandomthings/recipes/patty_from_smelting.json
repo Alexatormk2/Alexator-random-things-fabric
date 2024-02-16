@@ -4,6 +4,6 @@
   "cookingtime": 200,
   "experience": 0.7,
   "ingredient": {
-    "item": "alexatorrandomthings:raw_burger"
+    "item": "alexatorrandomthings:raw_patty"
   },
-  "result": "alexatorrandomthings:burger"}
+  "result": "alexatorrandomthings:patty"}

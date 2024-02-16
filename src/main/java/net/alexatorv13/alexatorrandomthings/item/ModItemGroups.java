@@ -34,6 +34,14 @@ public class  ModItemGroups {
                 entries.add(ModBlocks.MIKUSTATUE);
                 entries.add(ModBlocks.CASHREGISTER);
                 entries.add(ModBlocks.TESTSIZE);
+                entries.add(ModBlocks.TILES_1);
+                entries.add(ModBlocks.TILES_2);
+                entries.add(ModBlocks.TILES_3);
+                entries.add(ModBlocks.TILES_4);
+                entries.add(ModBlocks.TILES_5);
+                entries.add(ModBlocks.TILES_6);
+                entries.add(ModBlocks.FLOOR_TILES_1);
+                entries.add(ModBlocks.FLOOR_TILES_2);
             }).build());
 
     public static final ItemGroup ALEXATOR_NPC = Registry.register(Registries.ITEM_GROUP, new Identifier(AlexatorRandomThings.MOD_ID, "alexator_npc"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.alexator_blocks"))
@@ -45,9 +53,9 @@ public class  ModItemGroups {
 
 
     public static final ItemGroup ALEXATOR_FOODS = Registry.register(Registries.ITEM_GROUP, new Identifier(AlexatorRandomThings.MOD_ID, "alexator_foods"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.alexator_foods"))
-            .icon(() -> new ItemStack(ModItems.BURGER)).entries((displayContext, entries) -> {
-                entries.add(ModItems.BURGER);
-                entries.add(ModItems.RAW_BURGER);
+            .icon(() -> new ItemStack(ModItems.PATTY)).entries((displayContext, entries) -> {
+                entries.add(ModItems.PATTY);
+                entries.add(ModItems.RAW_PATTY);
                 entries.add(ModItems.RAW_NUGGET);
                 entries.add(ModItems.RAW_FRIES);
                 entries.add(ModItems.PROCESSED_MEAT);
@@ -67,7 +75,7 @@ public class  ModItemGroups {
                 entries.add(ModItems.CHEESE_PIECE);
                 entries.add(ModItems.CHEESE_SLICE);
                 entries.add(ModItems.CHEESEBURGER);
-                entries.add(ModItems.HAMBURGER);
+                entries.add(ModItems.BURGER);
 
             }).build());
 

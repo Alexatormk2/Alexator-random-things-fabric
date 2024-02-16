@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alexatorrandomthings:item/raw_nugget"
+    "layer0": "alexatorrandomthings:item/food/raw_nugget"
   }
 }

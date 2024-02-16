@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alexatorrandomthings:item/cheese_piece"
+    "layer0": "alexatorrandomthings:item/food/cheese_piece"
   }
 }
